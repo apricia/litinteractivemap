@@ -1,0 +1,35 @@
+body {margin: 0; padding: 0;}
+
+.map {
+		position: relative;
+		text-align: center;
+}
+svg {
+		position: absolute;
+}
+.part {
+		opacity: .1
+}
+.part:hover {
+		transition: opacity .2s ease;
+		opacity: 0.5;
+		cursor: pointer;
+}
+
+.description {
+	display: none;
+	position: absolute;
+	padding: 20px;
+	box-sizing: border-box;
+	width: 400px;
+	height: 700px;
+	box-shadow: 0 0 16px 5px;
+	left: 70px;
+	bottom: calc(50% - 200px);
+	top: calc(25% - 200px);
+	font-family: serif;
+}
+.description img {
+		width: 250px;
+		margin-bottom: 20px;
+}
